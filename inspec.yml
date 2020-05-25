@@ -2,8 +2,12 @@ name: linux-patch-baseline-exceptions
 title: InSpec Profile
 maintainer: Matt Ray
 copyright: Chef Software, Inc.
-license: Apache 2.0
+license: Apache-2.0
 summary: Disable broken profile entries
 version: 0.1.0
 supports:
   platform: os
+
+depends:
+- name: linux-patch-baseline
+  url: https://github.com/dev-sec/linux-patch-baseline
